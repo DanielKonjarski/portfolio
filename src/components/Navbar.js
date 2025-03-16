@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <nav style={styles.navbar}>
         <div style={styles.navLeft}>
-          <h1 style={styles.name}>Daniel's Portfolio</h1>
+          <h1 style={styles.name}>Daniel Konjarski</h1>
         </div>
         <div style={styles.navRight}>
           <ul style={styles.navList}>
