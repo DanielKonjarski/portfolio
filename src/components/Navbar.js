@@ -17,10 +17,10 @@ const Navbar = () => {
               <Link to="/personal" style={styles.navLink}>Resume</Link>
             </li>
             <li style={styles.navItem}>
-              <Link to="/academic" style={styles.navLink}>Academic Credentials</Link>
+              <Link to="/academic" style={styles.navLink}>Academic Work</Link>
             </li>
             <li style={styles.navItem}>
-              <Link to="/work" style={styles.navLink}>Work Experience</Link>
+              <Link to="/work" style={styles.navLink}>Experience & Academics</Link>
             </li>
             <li style={styles.navItem}>
               <Link to="/professional" style={styles.navLink}>Professional Summary</Link>
