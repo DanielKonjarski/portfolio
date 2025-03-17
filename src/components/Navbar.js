@@ -23,7 +23,7 @@ const Navbar = () => {
               <Link to="/work" style={styles.navLink}>Experience & Academics</Link>
             </li>
             <li style={styles.navItem}>
-              <Link to="/professional" style={styles.navLink}>Professional Summary</Link>
+              <Link to="/professional" style={styles.navLink}>Capstone</Link>
             </li>
           </ul>
         </div>
