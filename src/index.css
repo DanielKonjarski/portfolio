@@ -224,5 +224,110 @@ body {
     font-weight: bold;
   }
   
+  /* Container */
+.capstone-container {
+    padding: 20px;
+    color: #fff;
+    background-color: #1c1c1c;
+  }
+  
+  /* Title */
+  .capstone-title {
+    color: #ff5733;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Description text */
+  .capstone-description {
+    color: #ccc;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Links styling */
+  .capstone-links {
+    margin-bottom: 20px;
+  }
+  
+  .capstone-link {
+    display: inline-block;
+    margin: 10px;
+    color: #ff5733;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .capstone-link:hover {
+    border-bottom: 2px solid #ff5733;
+  }
+  
+  /* PDF Files */
+  .capstone-documents {
+    margin-top: 20px;
+  }
+  
+  .capstone-documents-title {
+    color: #ff5733;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .capstone-documents ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .capstone-documents li {
+    margin-bottom: 10px;
+  }
+  
+  .capstone-pdf-link {
+    color: #ff5733;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .capstone-pdf-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Screenshots */
+  .screenshots-container {
+    margin-top: 20px;
+  }
+  
+  .screenshots-title {
+    color: #ff5733;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .screenshots-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .screenshot {
+    width: 48%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .screenshots-row {
+      flex-direction: column;
+    }
+  
+    .screenshot {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
   
   
