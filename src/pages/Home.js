@@ -3,8 +3,6 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to My Portfolio</h1>
-      <p>Explore my work, achievements, and experiences.</p>
       <section className="bio">
         <h2>About Me</h2>
         <p>
