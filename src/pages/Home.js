@@ -1,8 +1,12 @@
 import React from "react";
+import dogImage from "../assets/dog.jpg";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-container">
+      <div className="profile-picture">
+        <img src={dogImage} alt="Profile" />
+      </div>
       <section className="bio">
         <h2>About Me</h2>
         <p>
