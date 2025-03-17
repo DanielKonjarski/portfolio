@@ -48,4 +48,22 @@ body {
   nav a:hover {
     color: #ccc;
   }
+
+.bio {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .bio h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .bio p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    text-indent: 20px;
+    line-height: 1.6;
+  }
+  
   
