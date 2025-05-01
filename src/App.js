@@ -6,6 +6,7 @@ import PersonalData from "./pages/PersonalData";
 import Academic from "./pages/Academic";
 import WorkExperience from "./pages/WorkExperience";
 import Professional from "./pages/Professional";
+import Details from "./pages/Details";
 
 function App() {
   return (
