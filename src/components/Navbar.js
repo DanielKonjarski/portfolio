@@ -38,24 +38,24 @@ const styles = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "#121212", // Dark background like the rest of the page
-    color: "#fff", // White text like the rest of the page
+    backgroundColor: "#121212",
+    color: "#fff",
     padding: "20px",
-    width: "100%", // Ensures it takes full width of the screen
-    boxSizing: "border-box", // Avoids any unaccounted-for padding or margins
+    width: "100%",
+    boxSizing: "border-box",
   },
   navLeft: {
-    flex: 1, // Allows it to take up available space on the left
+    flex: 1,
     display: "flex",
-    justifyContent: "flex-start", // Aligns the content to the left
-    padding: 0, // Ensures no padding on the left
-    margin: 0, // Removes any unwanted margins
+    justifyContent: "flex-start",
+    padding: 0,
+    margin: 0,
   },
   name: {
-    color: "#c7c7c7", // Same color for the name as the links
+    color: "#c7c7c7",
     fontSize: "24px",
-    margin: 0, // Removes the margin around the name
-    padding: "12px", // Ensures no padding around the name
+    margin: 0,
+    padding: "12px",
   },
   navRight: {
     display: "flex",
@@ -71,16 +71,16 @@ const styles = {
     margin: "0 15px",
   },
   navLink: {
-    color: "#c7c7c7", // Same color as the rest of the links
+    color: "#c7c7c7",
     textDecoration: "none",
     fontSize: "18px",
   },
   hr: {
-    border: "1px solid #c7c7c7", // Adds a small line under the navbar
+    border: "1px solid #c7c7c7",
     margin: "0",
-    width: "96%", // Line width adjusted
-    marginLeft: "2%", // Centers the line in the navbar
-    marginTop: "0", // Ensures no space between navbar and the line
+    width: "96%",
+    marginLeft: "2%",
+    marginTop: "0",
   },
 };
 

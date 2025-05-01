@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar"; // Import the Navbar
-import Home from "./pages/Home"; // Page for Home
-import PersonalData from "./pages/PersonalData"; // Personal Data page
-import Academic from "./pages/Academic"; // Academic Credentials page
-import WorkExperience from "./pages/WorkExperience"; // Work Experience page
-import Professional from "./pages/Professional"; // Professional Summary page
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import PersonalData from "./pages/PersonalData";
+import Academic from "./pages/Academic";
+import WorkExperience from "./pages/WorkExperience";
+import Professional from "./pages/Professional";
 
 function App() {
   return (
     <Router>
-      <Navbar /> {/* Add the Navbar */}
+      <Navbar />
       <div style={{ padding: "20px" }}>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -16,7 +16,11 @@ const Academic = () => {
             className="project-img"
           />
           <h3>Daycare Buddy</h3>
-          <p>This is a short description of the project.</p>
+          <p>Daycare Buddy is a web application designed specifically for daycare centers to streamline 
+            attendance tracking and enhance child safety. It features an intuitive attendance-based system 
+            that allows staff to easily check children in and out. The platform includes a built-in SMS notification 
+            system that alerts parents or guardians in real-time whenever their child is dropped off or picked up. 
+            With secure authentication and role-based authorization, Daycare Buddy ensures that only authorized personnel and guardians have access to sensitive information.</p>
           <a
             href="https://github.com/jamdazai/Daycare-Buddy"
             target="_blank"
@@ -87,7 +91,7 @@ const Academic = () => {
             alt="GitHub"
             className="project-img"
           />
-          <h3>Project Title 2</h3>
+          <h3>Connect 4</h3>
           <p>This is a short description of the project.</p>
           <a
             href="https://github.com/yourusername/project2"
@@ -105,7 +109,7 @@ const Academic = () => {
             alt="GitHub"
             className="project-img"
           />
-          <h3>Project Title 2</h3>
+          <h3>Travel Agency</h3>
           <p>This is a short description of the project.</p>
           <a
             href="https://github.com/yourusername/project2"
@@ -123,7 +127,7 @@ const Academic = () => {
             alt="GitHub"
             className="project-img"
           />
-          <h3>Project Title 2</h3>
+          <h3>Project Title</h3>
           <p>This is a short description of the project.</p>
           <a
             href="https://github.com/yourusername/project2"
@@ -141,7 +145,7 @@ const Academic = () => {
             alt="GitHub"
             className="project-img"
           />
-          <h3>Project Title 2</h3>
+          <h3>Project Title</h3>
           <p>This is a short description of the project.</p>
           <a
             href="https://github.com/yourusername/project2"
@@ -151,12 +155,7 @@ const Academic = () => {
           >
             View on GitHub
           </a>
-        </div>
-
-        
-        
-        {/* Add more projects here */}
-        
+        </div>        
       </div>
     </div>
   );
