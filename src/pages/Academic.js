@@ -5,6 +5,7 @@ import chatApp from "../assets/chatapp.png";
 import toDo from "../assets/todo.png";
 import employeeManagementSystem from "../assets/employeemanagementsystem.png";
 import weatherApp from "../assets/weatherapp.png";
+import connectFour from "../assets/connectfour.png";
 
 const Academic = () => {
   return (
@@ -101,20 +102,23 @@ const Academic = () => {
 
         <div className="project-card">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png"
+            src={connectFour}
             alt="GitHub"
-            className="project-img"
+            className="academic-img"
           />
           <h3>Connect 4</h3>
-          <p>This is a short description of the project.</p>
+          <p>A Java game of connect 4 with two gamemodes, Human vs Human & Human vs AI.</p>
           <a
-            href="https://github.com/yourusername/project2"
+            href="https://github.com/DanielKonjarski/connect-four"
             target="_blank"
             rel="noopener noreferrer"
             className="project-link"
           >
             View on GitHub
           </a>
+          <div>
+            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
+          </div>
         </div>
 
         <div className="project-card">
