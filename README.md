@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This project showcases my journey as a program
 
 ## 🚀 Live Demo
 Once deployed, you can access the portfolio here:  
-[Portfolio Link](https://your-deployed-link.com)
+[Portfolio Link](https://portfolio-eight-orcin-68.vercel.app/)
 
 ## 📌 Features & Pages
 
