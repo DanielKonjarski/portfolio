@@ -139,6 +139,13 @@ body {
     margin-bottom: 15px;
     border-radius: 12px;
   }
+
+  .academic-img-small{
+    width: 125px;
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
   
   .project-card h3 {
     color: #ff5733;
