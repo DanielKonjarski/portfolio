@@ -114,7 +114,7 @@ const Academic = () => {
             className="academic-img"
           />
           <h3>Travel Agency</h3>
-          <p>Travel agenct application using MVC architecture and written in C#.</p>
+          <p>Travel agency application using MVC architecture and written in C#.</p>
           <a
             href="https://github.com/DanielKonjarski/travel-agency"
             target="_blank"
