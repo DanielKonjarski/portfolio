@@ -67,6 +67,15 @@ body {
     margin-bottom: 15px;
     line-height: 1.6;
   }
+
+  .quote {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #555;
+    margin-top: 50px;
+  }  
   
   .home-container {
     text-align: center; /* Center-align the content */
