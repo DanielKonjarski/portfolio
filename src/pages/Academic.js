@@ -6,6 +6,7 @@ import toDo from "../assets/todo.png";
 import employeeManagementSystem from "../assets/employeemanagementsystem.png";
 import weatherApp from "../assets/weatherapp.png";
 import connectFour from "../assets/connectfour.png";
+import travelAgency from "../assets/travelagency.png";
 
 const Academic = () => {
   return (
@@ -32,9 +33,6 @@ const Academic = () => {
           >
             View on GitHub
           </a>
-          <div>
-            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
-          </div>
         </div>
         
         <div className="project-card">
@@ -53,9 +51,6 @@ const Academic = () => {
           >
             View on GitHub
           </a>
-          <div>
-            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
-          </div>
         </div>
 
         <div className="project-card">
@@ -74,9 +69,6 @@ const Academic = () => {
           >
             View on GitHub
           </a>
-          <div>
-            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
-          </div>
         </div>
 
         <div className="project-card">
@@ -95,9 +87,6 @@ const Academic = () => {
           >
             View on GitHub
           </a>
-          <div>
-            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
-          </div>
         </div>
 
         <div className="project-card">
@@ -116,21 +105,18 @@ const Academic = () => {
           >
             View on GitHub
           </a>
-          <div>
-            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
-          </div>
         </div>
 
         <div className="project-card">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png"
+            src={travelAgency}
             alt="GitHub"
-            className="project-img"
+            className="academic-img"
           />
           <h3>Travel Agency</h3>
           <p>This is a short description of the project.</p>
           <a
-            href="https://github.com/yourusername/project2"
+            href="https://github.com/DanielKonjarski/travel-agency"
             target="_blank"
             rel="noopener noreferrer"
             className="project-link"
@@ -155,9 +141,6 @@ const Academic = () => {
           >
             View on GitHub
           </a>
-          <div>
-            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
-          </div>
         </div>
 
         <div className="project-card">
