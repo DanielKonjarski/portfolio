@@ -4,6 +4,7 @@ import daycareBuddy from "../assets/daycarebuddy.png";
 import chatApp from "../assets/chatapp.png";
 import toDo from "../assets/todo.png";
 import employeeManagementSystem from "../assets/employeemanagementsystem.png";
+import weatherApp from "../assets/weatherapp.png";
 
 const Academic = () => {
   return (
@@ -136,20 +137,23 @@ const Academic = () => {
 
         <div className="project-card">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png"
+            src={weatherApp}
             alt="GitHub"
-            className="project-img"
+            className="academic-img"
           />
-          <h3>Project Title</h3>
-          <p>This is a short description of the project.</p>
+          <h3>Weather App</h3>
+          <p>A ReactJS application that shows real-time city weather using OpenWeatherMap API.</p>
           <a
-            href="https://github.com/yourusername/project2"
+            href="https://github.com/DanielKonjarski/weather-app"
             target="_blank"
             rel="noopener noreferrer"
             className="project-link"
           >
             View on GitHub
           </a>
+          <div>
+            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
+          </div>
         </div>
 
         <div className="project-card">
@@ -158,15 +162,15 @@ const Academic = () => {
             alt="GitHub"
             className="project-img"
           />
-          <h3>Project Title</h3>
-          <p>This is a short description of the project.</p>
+          <h3>More Projects to come...</h3>
+          <p>I am always making/working on new projects, if you would like to view my github, please click the link below.</p>
           <a
-            href="https://github.com/yourusername/project2"
+            href="https://github.com/DanielKonjarski"
             target="_blank"
             rel="noopener noreferrer"
             className="project-link"
           >
-            View on GitHub
+            My GitHub
           </a>
         </div>        
       </div>
