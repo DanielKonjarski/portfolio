@@ -7,16 +7,22 @@ const Home = () => {
       <div className="profile-picture">
         <img src={dogImage} alt="Profile" />
       </div>
+      <blockquote className="quote">
+        <em>"We can only see a short distance ahead, but we can see plenty there that needs to be done." — Alan Turing</em>
+      </blockquote>
       <section className="bio">
         <h2>About Me</h2>
         <p>
-          Hello, I'm Daniel, a dedicated software developer with a strong foundation in both front-end and back-end technologies. I specialize in building scalable, efficient, and user-centric applications with a focus on React, Node.js, and C#. My approach to development is driven by a passion for clean code, problem-solving, and delivering high-quality digital solutions that meet both user and business needs.
+          Hey, I’m Daniel. I’m a new programmer still finding my footing in the world of development. The first language I learned was Turing, so that quote above felt like a good fit.
         </p>
         <p>
-          I bring a combination of technical expertise, attention to detail, and collaborative teamwork to every project. I am committed to continuous growth and staying current with emerging technologies to ensure the solutions I create are innovative and sustainable.
+          I enjoy working on personal projects—especially ones that are a bit different from the usual. I like the challenge of creating something unique, whether it’s a small experiment or something more ambitious.
         </p>
         <p>
-          Outside of development, I am interested in Game Development, and I enjoy contributing to open-source projects and collaborating with other professionals in the field.
+          These days, I spend a lot of time working with React, Node.js, and C#. I focus on writing clean, efficient code that makes sense to both computers and the people who work with it.
+        </p>
+        <p>
+          Outside of coding, I’m into game development and open-source projects. There’s always something new to learn, and that’s part of what makes programming exciting.
         </p>
       </section>
     </div>
