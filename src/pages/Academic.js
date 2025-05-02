@@ -1,4 +1,9 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import daycareBuddy from "../assets/daycarebuddy.png";
+import chatApp from "../assets/chatapp.png";
+import toDo from "../assets/todo.png";
+import employeeManagementSystem from "../assets/employeemanagementsystem.png";
 
 const Academic = () => {
   return (
@@ -11,16 +16,12 @@ const Academic = () => {
       <div className="github-projects">
         <div className="project-card">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png"
+            src={daycareBuddy}
             alt="GitHub"
-            className="project-img"
+            className="academic-img"
           />
           <h3>Daycare Buddy</h3>
-          <p>Daycare Buddy is a web application designed specifically for daycare centers to streamline 
-            attendance tracking and enhance child safety. It features an intuitive attendance-based system 
-            that allows staff to easily check children in and out. The platform includes a built-in SMS notification 
-            system that alerts parents or guardians in real-time whenever their child is dropped off or picked up. 
-            With secure authentication and role-based authorization, Daycare Buddy ensures that only authorized personnel and guardians have access to sensitive information.</p>
+          <p>Attendance based web application with integrated SMS notification system for daycares.</p>
           <a
             href="https://github.com/jamdazai/Daycare-Buddy"
             target="_blank"
@@ -29,16 +30,19 @@ const Academic = () => {
           >
             View on GitHub
           </a>
+          <div>
+            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
+          </div>
         </div>
         
         <div className="project-card">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png"
+            src={chatApp}
             alt="GitHub"
-            className="project-img"
+            className="academic-img"
           />
           <h3>Real-Time Chat App</h3>
-          <p>This is a short description of the project.</p>
+          <p>A real-time chat application made with Node.js with functioning user authentication.</p>
           <a
             href="https://github.com/DanielKonjarski/101436648_lab_test1_chat_app"
             target="_blank"
@@ -47,16 +51,19 @@ const Academic = () => {
           >
             View on GitHub
           </a>
+          <div>
+            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
+          </div>
         </div>
 
         <div className="project-card">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png"
+            src={toDo}
             alt="GitHub"
-            className="project-img"
+            className="academic-img-small"
           />
           <h3>Todo App</h3>
-          <p>This is a short description of the project.</p>
+          <p>An iOS application designed to help users manage and organize their tasks.</p>
           <a
             href="https://github.com/DanielKonjarski/todo-app"
             target="_blank"
@@ -65,16 +72,19 @@ const Academic = () => {
           >
             View on GitHub
           </a>
+          <div>
+            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
+          </div>
         </div>
 
         <div className="project-card">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png"
+            src={employeeManagementSystem}
             alt="GitHub"
-            className="project-img"
+            className="academic-img"
           />
           <h3>Employee Management System</h3>
-          <p>This is a short description of the project.</p>
+          <p>An Employee Management System with CRUD, authentication using Node.js and MongoDB with no UI.</p>
           <a
             href="https://github.com/DanielKonjarski/fullstack-dev/tree/main/week%207/Assignment1-101436648"
             target="_blank"
@@ -83,6 +93,9 @@ const Academic = () => {
           >
             View on GitHub
           </a>
+          <div>
+            <Link to="/Details/DetailsOne" className="project-link">Details</Link>
+          </div>
         </div>
 
         <div className="project-card">
